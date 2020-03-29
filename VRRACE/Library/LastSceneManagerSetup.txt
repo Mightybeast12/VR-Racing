@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Game1_EngineBlew.unity
+- path: Assets/Scenes/Take_OtherTeamsEquipment.unity
   isLoaded: 1
   isActive: 1

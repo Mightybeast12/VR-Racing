@@ -1457,11 +1457,11 @@ PrefabInstance:
     - target: {fileID: 1134509206, guid: 3430dc632955c2843a5a995d7b867ea0, type: 3}
       propertyPath: rightcolour
       value: 
-      objectReference: {fileID: 2100000, guid: f790bb9b4bef9a34ca94f939175f6421, type: 2}
+      objectReference: {fileID: 2100000, guid: 663dfbad6db0a594d97f00e537f1f0c9, type: 2}
     - target: {fileID: 1134509206, guid: 3430dc632955c2843a5a995d7b867ea0, type: 3}
       propertyPath: wrongcolour
       value: 
-      objectReference: {fileID: 2100000, guid: e931d57cd7951d243ac7844b8a246f96, type: 2}
+      objectReference: {fileID: 2100000, guid: d8ff952d1f8bbfc45b0a9c0b871eeb80, type: 2}
     - target: {fileID: 4138430846272624525, guid: 3430dc632955c2843a5a995d7b867ea0,
         type: 3}
       propertyPath: m_Name

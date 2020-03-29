@@ -706,8 +706,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0279373b5efacef4c9d44faa38ff299e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rightcolour: {fileID: 2100000, guid: f790bb9b4bef9a34ca94f939175f6421, type: 2}
-  wrongcolour: {fileID: 2100000, guid: e931d57cd7951d243ac7844b8a246f96, type: 2}
+  rightcolour: {fileID: 2100000, guid: 4ed7a4740b6630f458b1425325bec411, type: 2}
+  wrongcolour: {fileID: 2100000, guid: d8ff952d1f8bbfc45b0a9c0b871eeb80, type: 2}
 --- !u!135 &1356133521
 SphereCollider:
   m_ObjectHideFlags: 0

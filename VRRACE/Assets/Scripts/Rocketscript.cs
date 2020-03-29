@@ -4,48 +4,45 @@ using UnityEngine;
 
 public class Rocketscript : MonoBehaviour {
 
-    Rigidbody rigidbody;
-    AudioSource audiosource;
-    public float Rspeed;
-    public float Jpower;
+    Rigidbody RB3D;
+    AudioSource rocketsound;
+    public float RotationSPD;
+    public float Thrust;
     float rotationspeed;
     float jetpower;
-    // Use this for initialization
+
     void Start () {
 
-              rigidbody = GetComponent<Rigidbody>();
-        audiosource = GetComponent<AudioSource>();
+              RB3D = GetComponent<Rigidbody>();
+        rocketsound = GetComponent<AudioSource>();
     }
-	
-	// Update is called once per frame
 	void Update () {
         Thrusting();
         PlayerRotation();
-        	
+     	
 	}
     private void Thrusting()
     {
-        jetpower = Rspeed * Time.deltaTime;
+        jetpower = RotationSPD * Time.deltaTime;
         if (Input.GetKey(KeyCode.Space))
         {
-            rigidbody.AddRelativeForce(Vector3.up * jetpower);
-            if (!audiosource.isPlaying)
+            RB3D.AddRelativeForce(Vector3.up * jetpower);
+            if (!rocketsound.isPlaying)
             {
-                audiosource.Play();
+                rocketsound.Play();
             }
-           
-        }
+            }
         else
         {
-            audiosource.Stop(); 
+            rocketsound.Stop(); 
         }
     }
     public void PlayerRotation()
     {
      
-        rigidbody.freezeRotation = true;
+        RB3D.freezeRotation = true;
 
-        rotationspeed = Rspeed * Time.deltaTime;
+        rotationspeed = RotationSPD * Time.deltaTime;
         if (Input.GetKey(KeyCode.A))
         {
             transform.Rotate(Vector3.forward * rotationspeed);
@@ -57,7 +54,7 @@ public class Rocketscript : MonoBehaviour {
 
         }
         
-        rigidbody.freezeRotation = false;
+        RB3D.freezeRotation = false;
         
     }
 

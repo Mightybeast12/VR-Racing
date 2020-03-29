@@ -10,19 +10,10 @@ public class FH_PathFollower : MonoBehaviour
     public float speed = 10.0f;
     public float reachDestination = 1.0f;
     public int currentlocation = 0;
-
-    void Start()
+        void Update()
     {
-
-
-    }
-    void Update()
-    {
-
         float distance = Vector3.Distance(Path[currentlocation].position, transform.position);
         transform.position = Vector3.MoveTowards(transform.position, Path[currentlocation].position, Time.deltaTime * speed);
-
-
         if (distance <= reachDestination)
         {
             currentlocation++;
@@ -31,10 +22,7 @@ public class FH_PathFollower : MonoBehaviour
         {
             currentlocation = 0;
         }
-
-
-    }
-
+         }
     void OnDrawGizmos()
     {
 

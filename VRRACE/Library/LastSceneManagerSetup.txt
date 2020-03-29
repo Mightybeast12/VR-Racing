@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Take_OtherTeamsEquipment.unity
+- path: Assets/Scenes/Find The Screw.unity
   isLoaded: 1
   isActive: 1

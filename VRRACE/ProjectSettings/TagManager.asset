@@ -8,6 +8,8 @@ TagManager:
   - PetrolTarget
   - Waypoint
   - Righttrigger
+  - DeathZone
+  - scoreplus
   layers:
   - Default
   - TransparentFX

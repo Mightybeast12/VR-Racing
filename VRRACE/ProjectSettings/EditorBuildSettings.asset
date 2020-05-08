@@ -4,5 +4,26 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainStartScene.unity
+    guid: 8098b52cc2188b04b9868ca23311f3b2
+  - enabled: 1
+    path: Assets/Scenes/2.5dplatformer.unity
+    guid: 498595c1084a5b44bbabd1b6c6620409
+  - enabled: 1
+    path: Assets/Scenes/DunkTheWrench.unity
+    guid: e25ed56803220634caaa8baad2e29dfd
+  - enabled: 1
+    path: Assets/Scenes/Game1_EngineBlew.unity
+    guid: f84ffef051dee7948a21cda1882a1f48
+  - enabled: 1
+    path: Assets/Scenes/GetThroughtheCrowd.unity
+    guid: 63ff79aaca398ef48be298e058d2a8a1
+  - enabled: 1
+    path: Assets/Scenes/PlaceTheRightBolt.unity
+    guid: 0af76ca5100cd984a95234dfbbbd343c
+  - enabled: 1
+    path: Assets/Scenes/Take_OtherTeamsEquipment.unity
+    guid: bdefbbf1db7630e459174e766a8de05b
   m_configObjects: {}

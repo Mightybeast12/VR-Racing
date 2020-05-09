@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/MainStartScene.unity
+- path: Assets/Scenes/CarMiniGame.unity
   isLoaded: 1
   isActive: 1

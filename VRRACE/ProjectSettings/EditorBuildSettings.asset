@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/StartScene.unity
+    guid: 93e9673c5bcd7cb4e86e1a7b33355ff1
+  - enabled: 1
     path: Assets/Scenes/MainStartScene.unity
     guid: 8098b52cc2188b04b9868ca23311f3b2
   - enabled: 1
@@ -26,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Take_OtherTeamsEquipment.unity
     guid: bdefbbf1db7630e459174e766a8de05b
+  - enabled: 1
+    path: Assets/Scenes/CinemaMiniGame.unity
+    guid: ee4d67aa03261e3419368942c13a8a90
   m_configObjects: {}

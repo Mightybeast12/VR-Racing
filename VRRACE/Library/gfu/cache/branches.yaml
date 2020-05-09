@@ -13,10 +13,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2020-05-06T23:39:23.750+01:00
-  initializedAtString: 2020-05-06T23:32:49.420+01:00
-  localBranches: []
-  remoteBranches: []
+  lastUpdatedAtString: 2020-05-09T15:29:39.335+01:00
+  initializedAtString: 2020-05-09T15:29:39.301+01:00
+  localBranches:
+  - name: master
+    tracking: origin/master
+  remoteBranches:
+  - name: origin/master
+    tracking: '[None]'
   remotes:
   - name: origin
     url: https://github.com/Mightybeast12/VR-Racing.git
@@ -26,15 +30,27 @@ MonoBehaviour:
     function: 0
     token: 
   localConfigBranches:
-    keys: []
-    values: []
+    keys:
+    - master
+    values:
+    - name: master
+      remote:
+        name: origin
+        url: https://github.com/Mightybeast12/VR-Racing.git
+      trackingBranch: master
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
-    - Values: []
+    - Values:
+      - master
     subKeyValues:
-    - Values: []
+    - Values:
+      - name: master
+        remote:
+          name: origin
+          url: https://github.com/Mightybeast12/VR-Racing.git
+        trackingBranch: 
   configRemotes:
     keys:
     - origin
